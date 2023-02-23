@@ -1,18 +1,20 @@
 require('bootstrap');
+const foodTableImg = require("../../assets/img/food-table.jpg");
+const grillImg = require("../../assets/img/grill.jpg");
 $(document).ready(function() {
   // First image is hard coded in index.html
   const carouselSlides = [
     {
       title: "We travel all over the US",
       subtitle: "Check out our schedule!",
-      img: "./assets/img/food-table.jpg",
+      img: foodTableImg,
       btnText: "View Schedule",
       btnUrl: "schedule.html"
     },
     {
       title: "Our food is seriously the bomb!",
       subtitle: "What are you waiting for?",
-      img: "./assets/img/grill.jpg",
+      img: grillImg,
       btnText: "Purchase Tickets",
       btnUrl: "tickets.html"
     },
